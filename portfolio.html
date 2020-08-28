@@ -366,14 +366,22 @@
             </li>
           </ul>
         </div>
-        <!-- Форму подписки в футере пока не размечаю -->
         <div class="footer-box-2">
           <b class="footer-appeal">Подпишитесь на рассылку</b>
           <div class="input">
-            <input class="footer-input" type="text" />
+            <label for="footer-mail"></label>
+            <input
+              class="footer-input"
+              type="email"
+              name="footer-mail"
+              id="footer-mail"
+              placeholder="E-mail"
+            />
             <button class="send" type="button">
               Подписаться
-              <img class="img-send" src="./images/icon/icon-send.svg" alt="" />
+              <svg class="img-send" width="24" height="24">
+                <use href="./images/sprite.svg#icon-icon-send"></use>
+              </svg>
             </button>
           </div>
         </div>
