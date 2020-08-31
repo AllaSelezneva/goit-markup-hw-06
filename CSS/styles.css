@@ -710,6 +710,9 @@ input,
 textarea {
   outline: var(--accent-color);
 }
+textarea {
+  resize: none;
+}
 .form-input {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -743,8 +746,7 @@ textarea::placeholder {
 }
 .form-textarea {
   width: 100%;
-  resize: none;
-
+  font-family: Roboto;
   font-size: 12px;
   line-height: 1.666;
   letter-spacing: 0.01em;
